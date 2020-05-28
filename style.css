@@ -68,24 +68,12 @@ i{
 }
 img{
 	width: 100%;
+	height: auto;
 	display: block;
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: #e2e4e5;
 	box-sizing: border-box;
-}
-
-img.line1{
-	height: 425px;
-}
-img.line2{
-	height: 385px;
-}
-img.line3{
-	height: 450px;
-}
-img.line4{
-	height: 400px;
 }
 
 .container{
