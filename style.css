@@ -344,5 +344,14 @@ img{
 	box-shadow: 0 0 30px rgba(0, 0, 0, .25);
 	column-count: 1;
 }
+.wrapper > div{
+		padding:1em;
+	}
+	.wrapper{
+		display: grid;
+		grid-template-columns: 8fr;
+		grid-gap:0.5em;
+		grid-auto-rows: minmax(0px,auto);
 
+	}
 }
