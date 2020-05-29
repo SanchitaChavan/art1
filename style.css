@@ -298,11 +298,15 @@ i{
 	color: black;
 }
 #aboutimg{
-		width: 200px;
-		height:200px;
+		width: 450px;
+		height:530px;
 		align-items: center;
-		background-image: url("imgmob.jpg");
-		background-size: 200px 200px;
+		justify-content: center;
+		background-position: top center;
+		  background-repeat: no-repeat;
+       background-attachment: fixed;
+		background-image: url("image.jpg");
+		background-size: 450px 550px;
 	}
 #lala > p{
 	color: #152440;
