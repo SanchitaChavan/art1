@@ -298,12 +298,11 @@ i{
 	color: black;
 }
 #aboutimg{
-		width: 100px;
-		height:165px;
+		width: 200px;
+		height:200px;
 		align-items: center;
-		float: right;
 		background-image: url("imgmob.jpg");
-		background-size: 100px 165px;
+		background-size: 200px 200px;
 	}
 #lala > p{
 	color: #152440;
