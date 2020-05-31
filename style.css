@@ -22,7 +22,7 @@ body{
 }
 button{
 	 background-color: ;
-     border: none;
+	 border: none;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -52,7 +52,7 @@ li {
 #lala > p{
 	color: #152440;
 	font-family: sept;	
-	font-size: 200%;
+	font-size: 32px;
 	line-height: 100%;		
 }
 #des{
@@ -87,7 +87,7 @@ i{
 }
 #lala{
 	display: block;
-    align-content: center;	
+	align-content: center;	
 }
 ul{
   position: -webkit-sticky; /* Safari */
@@ -200,7 +200,7 @@ img{
 }
 #lala{
 	display: block;
-    align-content: center;	
+	align-content: center;	
 }
 ul{
   position: -webkit-sticky; /* Safari */
@@ -248,6 +248,8 @@ ul{
 		background-image: url("image.jpg");
 		background-size: 300px 300px; 
 	}
+
+
 
 }
 /********** Small devices only **********/
@@ -297,35 +299,28 @@ ul{
 i{
 	color: black;
 }
-#aboutimg{
-		width: 450px;
-		height:530px;
-		align-items: center;
-		justify-content: center;
-		background-position: top center;
-		  background-repeat: no-repeat;
-       background-attachment: fixed;
-		background-image: url("image.jpg");
-		background-size: 450px 550px;
-	}
+
 #lala > p{
 	color: #152440;
 	font-family: sept;	
-	font-size: 50%;
+	font-size: 25px;
+	text-align: center;
+	justify-content: center;
 }
 button{
 	 background-color: ;
-     border: none;
-    text-align: center;
-  text-decoration: none;
-    display: inline-block;
+	 border: none;
+	text-align: center;
+    text-decoration: none;
 	background-color: #4CAF50;
 	color: white;
 	padding: 2px;
-	font-size: 5px;
+	font-size: 20px;
 	margin-top: 3%;
 	border-radius: 8px;
+	justify-content: center;
 }
+
 #lala{
 	display: block;
 }
@@ -357,4 +352,11 @@ img{
 		grid-auto-rows: minmax(0px,auto);
 
 	}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 }
