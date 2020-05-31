@@ -94,8 +94,12 @@ i{
 	color: #ffffff00;
 }
 #lala{
-	display: block;
-	align-content: center;	
+  width: auto;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;	
 }
 ul{
   position: -webkit-sticky; /* Safari */
